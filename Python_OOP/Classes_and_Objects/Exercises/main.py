@@ -1,7 +1,6 @@
 from project.task import Task
 from project.section import Section
 
-
 task = Task("Make bed", "27/05/2020")
 print(task.change_name("Go to University"))
 print(task.change_due_date("28.05.2020"))
